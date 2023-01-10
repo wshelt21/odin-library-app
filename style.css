@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    min-height: 150px;
+    padding: 1rem;
+    background-color: antiquewhite;
+}
+
+.book-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+
+
+    max-width: 100rem;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+.add-btn {
+    height: 300px;
+    width: 94px;
+    cursor: pointer;
+}
+
+.add-btn p {
+    font-size: 1.5rem;
+}
+
+.book-spine {
+    height: 300px;
+    width: 94px;
+    cursor: pointer;
+    background-color: rgb(143, 120, 91);
+}
